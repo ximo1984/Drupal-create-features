@@ -1,4 +1,4 @@
 Drupal-create-features
 ======================
 Version: Alpha<br>
-Description: With this script you can create your features.
+Description: Create your features automatically with drush.
