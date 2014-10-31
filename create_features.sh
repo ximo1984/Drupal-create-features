@@ -3,7 +3,7 @@
 CATEGORIES=( taxonomy menu_custom filter field_base field_instance node commerce_customer commerce_product_type profile2_type flag views_view user_role user_permission rules_config elysia_cron feeds_importer)
 echo $1 | grep -i 'help' > /dev/null
 
-if [ -z "$1" -o $? == 0 ]
+if [ $? == 0 ]
 then
   echo "This scripts exports the configuration to features using a layered approach."
   echo "It will export features in a specific order and will enable them."
