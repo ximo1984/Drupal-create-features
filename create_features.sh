@@ -19,7 +19,7 @@ echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  for i in ${categories[@]}
+  for i in ${CATEGORIES[@]}
   do
     feature_name=${PACKAGE}_$i
     if [ -f "modules/feature/${feature_name}/${feature_name}.info" ]
